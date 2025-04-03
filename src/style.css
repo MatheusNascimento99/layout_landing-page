@@ -1,0 +1,164 @@
+/*#region page*/
+.page {
+  font-family: "Cinzel", serif;
+  scroll-behavior: smooth;
+}
+.page__body {
+  margin: 0;
+}
+
+.page__menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.page__menu:target {
+  opacity: 1;
+  pointer-events: all;
+}
+/*#endregion */
+/*#region header */
+.header {
+  box-sizing: border-box;
+  height: 100vh;
+  background-image: url(./images/header-bg-mobile.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.header__title {
+  margin-top: 110px;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  vertical-align: middle;
+  letter-spacing: 1.5px;
+  line-height: 100%;
+}
+
+.header__icons {
+  display: flex;
+  gap: 24px;
+}
+
+/*#endregion */
+
+/*#region menu*/
+
+.top-bar {
+  padding: 25px 20px 20px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top__bar__icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 20px 40px 20px ;
+}
+
+.top-bar-logo {
+  display: flex;
+}
+
+.menu {
+  box-sizing: border-box;
+  height: 100vh;
+  background-color: #d12d35;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.menu__contact{
+  margin-left: 20px;
+}
+
+.menu_nav {
+  margin-bottom: 32px;
+}
+
+.menu__content {
+  padding-inline: 20px;
+}
+
+.menu-phone-number {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
+.menu-phone-number:first-child{
+  margin-bottom: 8px;
+}
+
+.menu-phone-number:nth-last-child(2){
+  margin-bottom: 16px;
+}
+
+.call-to-order {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  padding-bottom: 7px;
+  border-bottom: #ffffff 1px solid;
+  width: fit-content;
+}
+
+/*#endregion */
+
+/*#region nav */
+.nav__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.nav__link {
+  color: #ffffff;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-size: 22px;
+  line-height: 22px;
+}
+/*#endregion */
+
+/*#region icon*/
+.icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+
+.icon--phone {
+  background-image: url(./icons/icon-phone.png);
+}
+
+.icon--menu {
+  background-image: url(./icons/burger-menu.png);
+}
+
+.icon--close {
+  background-image: url(./icons/icon-close.png);
+}
+/*#endregion */
+
+/*#region main*/
+
+/*#endregion */
+
+/*#region footer*/
+
+/*#endregion */
