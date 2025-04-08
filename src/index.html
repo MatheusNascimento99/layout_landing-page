@@ -104,7 +104,7 @@
             <li class="nav__item">
               <a
                 class="nav__link"
-                href="#now-on-view"
+                href="#now-one-view"
               >
                 Now on view
               </a>
@@ -120,7 +120,7 @@
             <li class="nav__item">
               <a
                 class="nav__link"
-                href="#contacts"
+                href="#contact-us"
               >
                 Contacts
               </a>
@@ -155,7 +155,10 @@
     </aside>
 
     <main class="main">
-      <section class="main_about">
+      <section
+        class="main_about"
+        id="about-us"
+      >
         <div class="main__about__title">
           Plan your visit
           <br />
@@ -208,7 +211,7 @@
 
       <section
         class="main__now-one-view"
-        id="#now-one-view"
+        id="now-one-view"
       >
         <div class="main__no-one-view">
           <span class="main__no-one-view__title--emphasis">Now On View</span>
@@ -294,7 +297,7 @@
 
       <section
         class="main__explore-online"
-        id="#explore-online"
+        id="explore-online"
       >
         <div class="explore-online">
           <div class="explore-online__main__title">More to Explore Online</div>
@@ -342,12 +345,86 @@
 
       <section
         class="contact-us"
-        id="#contact-us"
+        id="contact-us"
       >
-        secao 4
-      </section>
+        <h3 class="contact-us__title">Contact us</h3>
+        <div class="contact-us__content">
+          <h3 class="contact-us__location-name">The Met Fifth Avenue</h3>
+          <p class="contact-us__label">Phone</p>
+          <p class="contact-us__phone">
+            <a
+              href="tel:+1 212-535-7710"
+              class="contact-us__link"
+            >
+              +1 212-535-7710
+            </a>
+          </p>
+          <p class="contact-us__label">Address</p>
+          <address class="contact-us__address">
+            1000 Fifth Avenue New York, NY 10028
+          </address>
+        </div>
 
-      <footer>roda pé</footer>
+        <div class="contact-us__content">
+          <h3 class="contact-us__location-name">The Met Cloisters</h3>
+          <p class="contact-us__label">Phone</p>
+          <p class="contact-us__phone">
+            <a
+              href="tel:+1 212-923-3700"
+              class="contact-us__link"
+            >
+              +1 212-923-3700
+            </a>
+          </p>
+          <p class="contact-us__label">Address</p>
+          <address class="contact-us__address">
+            99 Margaret Corbin Drive Fort Tryon Park
+            <br />
+            New York, NY 10040
+          </address>
+        </div>
+      </section>
+      <form
+        action="URL-de-destino"
+        method="POST"
+        class="form"
+      >
+        <div class="form__group">
+          <input
+            class="form__input"
+            type="text"
+            name="name"
+            placeholder="Name"
+            required
+          />
+        </div>
+        <div class="form__group">
+          <input
+            class="form__input"
+            type="email"
+            name="email"
+            placeholder="Email"
+            required
+          />
+        </div>
+        <div class="form__group">
+          <textarea
+            class="form__input form__input--menssage"
+            type="text"
+            name="menssage"
+            placeholder="Menssage"
+            required
+          ></textarea>
+        </div>
+        <button
+          class="form__submit"
+          type="submit"
+        >
+          Send
+        </button>
+      </form>
+
+      <footer class="footer"></footer>
     </main>
   </body>
 </html>
