@@ -6,33 +6,40 @@
 >
   <head>
     <meta charset="UTF-8" />
+
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
+
     <title>Document</title>
+
     <link
       rel="stylesheet"
       href="./style.css"
     />
+
     <link
       rel="preconnect"
       href="https://fonts.googleapis.com"
     />
+
     <link
       rel="preconnect"
       href="https://fonts.gstatic.com"
       crossorigin="attr-req-value"
     />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Roboto:wght@400&display=swap"
       rel="stylesheet"
     />
   </head>
   <!-- #endregion -->
+
   <body class="page__body">
     <header class="header">
-      <div class="top-bar menu__top">
+      <div class="menu__top top-bar">
         <a
           href="#"
           class="top-bar-logo"
@@ -42,17 +49,20 @@
             alt="base logo"
           />
         </a>
+
         <div class="header__icons">
           <a
-            href="#"
+            href="tel:#"
             class="icon icon--phone"
           ></a>
+
           <a
             href="#menu"
             class="icon icon--menu"
           ></a>
         </div>
       </div>
+
       <div class="header__bottom">
         <h1 class="header__title">
           Welcome
@@ -66,10 +76,10 @@
       class="menu page__menu"
       id="menu"
     >
-      <div class="top__bar__icons">
+      <div class="top-bar">
         <a
           href="#"
-          class="top-bar-logo"
+          class="top-bar__logo"
         >
           <img
             src="images/THE-MET.png"
@@ -77,11 +87,13 @@
             class="menu__logo"
           />
         </a>
+
         <a
           href="#"
           class="icon icon--close"
         ></a>
       </div>
+
       <div class="menu__content">
         <nav class="menu_nav">
           <ul class="nav__list">
@@ -93,6 +105,7 @@
                 Home
               </a>
             </li>
+
             <li class="nav__item">
               <a
                 class="nav__link"
@@ -101,6 +114,7 @@
                 About Us
               </a>
             </li>
+
             <li class="nav__item">
               <a
                 class="nav__link"
@@ -109,6 +123,7 @@
                 Now on view
               </a>
             </li>
+
             <li class="nav__item">
               <a
                 class="nav__link"
@@ -117,6 +132,7 @@
                 Explore Online
               </a>
             </li>
+
             <li class="nav__item">
               <a
                 class="nav__link"
@@ -128,26 +144,29 @@
           </ul>
         </nav>
       </div>
+
       <div class="menu__contact">
         <a
           href="tel:+1 212-535-7710"
-          class="menu-phone-number"
+          class="menu__phone-number"
         >
           The Met Fifth Avenue
           <br />
           +1 212-535-7710
         </a>
+
         <a
           href="tel:++1 212-923-3700"
-          class="menu-phone-number"
+          class="menu__phone-number"
         >
           The Met Cloisters
           <br />
           ++1 212-923-3700
         </a>
+
         <a
           href="tel:"
-          class="call-to-order"
+          class="menu__call-to-order"
         >
           call to order
         </a>
@@ -156,55 +175,74 @@
 
     <main class="main">
       <section
-        class="main_about"
+        class="about"
         id="about-us"
       >
-        <div class="main__about__title">
+        <div class="about__title">
           Plan your visit
           <br />
-          <span class="main__about__title--emphasis">Museum hours</span>
-        </div>
-        <span class="main__about__title--adress">The Met Fifth Avenue</span>
 
-        <div class="main__about__adress--hour-day">
-          <div class="main__about__adress--hour">
+          <span class="about__title--emphasis">Museum hours</span>
+
+        </div>
+
+        <span class="about__title--address">The Met Fifth Avenue</span>
+
+        <div class="about__schedule">
+          <div class="about__hour">
             <span>10 am - 5 pm</span>
+
             <span>10 am - 9 pm</span>
+
             Closed
+
           </div>
-          <div class="main__about__adress--day">
+
+          <div class="about__day">
             <span>Sun, Mon, Tue, Thu</span>
+
             <span>Fri, Sat</span>
+
             <span>Wen</span>
           </div>
         </div>
 
-        <div class="closed">
-          <span class="main__about__title--closed">Closed on</span>
+        <div class="about__closed">
+          <span class="about__closed-title">Closed on</span>
+
           <br />
+
           Thanksgiving Day, Dec 25, Jan 1,
+
           <br />
+
           and the first Monday in May.
+
         </div>
 
-        <span class="main__about__title--adress main__about__title--midlle">
+        <span class="about__title--address about__title--middle">
           The Met Cloisters
         </span>
 
-        <div class="main__about__adress--hour-day">
-          <div class="main__about__adress--cloisters--hour">
+        <div class="about__schedule">
+          <div class="about__hour">
             <span>10 am - 4.30 pm</span>
+
             <span>Closed</span>
           </div>
-          <div class="main__about__adress--cloisters--day">
+
+          <div class="about__day">
             <span>Thu - Tue</span>
+
             <span>Wen</span>
           </div>
         </div>
 
-        <div class="closed">
-          <span class="main__about__title--closed">Closed on</span>
+        <div class="about__closed">
+          <span class="about__closed-title">Closed on</span>
+
           <br />
+
           Thanksgiving Day, Dec 25, Jan 1
         </div>
       </section>

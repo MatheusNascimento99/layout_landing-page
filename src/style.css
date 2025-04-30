@@ -64,18 +64,12 @@
   justify-content: space-between;
 }
 
-.top__bar__icons {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 25px 20px 40px;
-}
-
-.top-bar-logo {
+.top-bar__logo {
   display: flex;
 }
 
 .menu {
+  width: 320px;
   box-sizing: border-box;
   height: 100vh;
   background-color: #d12d35;
@@ -95,21 +89,21 @@
   padding-inline: 20px;
 }
 
-.menu-phone-number {
+.menu__phone-number {
   display: block;
   color: #fff;
   text-decoration: none;
 }
 
-.menu-phone-number:first-child {
+.menu__phone-number:first-child {
   margin-bottom: 8px;
 }
 
-.menu-phone-number:nth-last-child(2) {
+.menu__phone-number:nth-last-child(2) {
   margin-bottom: 16px;
 }
 
-.call-to-order {
+.menu__call-to-order {
   display: block;
   color: #fff;
   text-decoration: none;
@@ -164,11 +158,11 @@
 
 /* #region main about */
 
-.main_about {
+.about {
   margin-bottom: 100px;
 }
 
-.main__about__title {
+.about__title {
   margin: 0 20px 32px;
   font-weight: 700;
   font-size: 12px;
@@ -181,76 +175,57 @@
   margin-bottom: 32px;
 }
 
-.main__about__title--emphasis {
+.about__title--emphasis {
   color: black;
   font-size: 32px;
 }
 
-.main__about__title--adress {
+.about__title--address,
+.about__title--middle {
+  display: block;
   line-height: 30px;
   font-size: 24px;
   font-weight: 700;
   margin: 24px 20px 0;
 }
 
-.main__about:nth-of-type(2) {
+.about:nth-of-type(2) {
   border: solid red 1px;
 }
 
-.main__about__adress--hour-day {
+.about__schedule {
   display: flex;
   width: fit-content;
   gap: 24px;
   margin: 16px 20px;
 }
 
-.main__about__adress--hour {
+.about__hour,
+.about__day{
   display: flex;
   flex-direction: column;
   gap: 8px;
   font-size: 16px;
+}
+
+.about__hour {
   font-weight: 700;
 }
 
-.main__about__adress--day {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  font-size: 16px;
+.about__day {
   font-weight: 400;
 }
 
-.closed {
+.about__closed {
   font-size: 16px;
   font-weight: 400;
   line-height: 27px;
   margin: 0 20px;
 }
 
-.main__about__title--midlle {
-  display: block;
-  margin-top: 24px;
-}
-
-.main__about__title--closed {
+.about__closed-title {
   font-weight: 700;
   font-size: 16px;
-}
-
-.main__about__adress--cloisters--hour {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  font-size: 16px;
-  font-weight: 700;
-}
-
-.main__about__adress--cloisters--day {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  font-size: 16px;
-  font-weight: 400;
 }
 
 /* #endregion */
@@ -305,11 +280,9 @@
 
 .main__no-one-view_content__info {
   margin-left: 20px;
-  border: solid green 2px;
 }
 
 .main__no-one-view_allexibition--content {
-  border: solid violet 2px;
   min-width: 280px;
   min-height: 56px;
   display: flex;
@@ -474,8 +447,8 @@
 .footer {
   width: 630;
   height: 180;
-background-image: url(./images/img-contentfooter.png);
-background-repeat: no-repeat;
+  background-image: url(./images/img-contentfooter.png);
+  background-repeat: no-repeat;
 }
 
 /* #region footer */
