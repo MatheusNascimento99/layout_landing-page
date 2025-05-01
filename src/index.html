@@ -38,6 +38,7 @@
   <!-- #endregion -->
 
   <body class="page__body">
+    <!-- #region header -->
     <header class="header">
       <div class="menu__top top-bar">
         <a
@@ -71,7 +72,9 @@
         </h1>
       </div>
     </header>
+    <!-- #endregion -->
 
+    <!-- #region aside-->
     <aside
       class="menu page__menu"
       id="menu"
@@ -172,8 +175,10 @@
         </a>
       </div>
     </aside>
+    <!-- #endregion-->
 
     <main class="main">
+      <!-- #region about -->
       <section
         class="about"
         id="about-us"
@@ -246,149 +251,183 @@
           Thanksgiving Day, Dec 25, Jan 1
         </div>
       </section>
+      <!-- #endregion -->
 
+      <!-- #region now-one-view -->
       <section
-        class="main__now-one-view"
         id="now-one-view"
       >
-        <div class="main__no-one-view">
-          <span class="main__no-one-view__title--emphasis">Now On View</span>
-          <br />
+        <div class="no-one-view__top">
+          <span class="no-one-view__title-top">Now On View</span>
           <span>
             Explore exhibition gallery guides, videos, articles, and more.
           </span>
         </div>
 
-        <div class="main__no-one-view_content">
-          <div class="main__no-one-view__img">
-            <img
-              src="./images/img-content-1.png"
-              alt="img 1° new"
-            />
-            <img
-              src="./images/img-content-2.png"
-              alt="img 2° new"
-            />
-          </div>
-          <div class="main__no-one-view_content__title">
-            A New Look at Old Masters
-          </div>
-          <span class="main__no-one-view_content__info">
-            December 12, 2020 - Through
-          </span>
-          <span class="main__no-one-view_content__info">Spring 2023</span>
-        </div>
+        <article>
+          <div class="no-one-view__content">
+            <div class="no-one-view__img">
+              <img
+                src="./images/img-content-1.png"
+                alt="img 1° new"
+              />
 
-        <div class="main__no-one-view_content">
-          <div class="main__no-one-view__img--three-img">
-            <img
-              src="./images/img-content-5.png"
-              alt="img 5° new"
-            />
-            <img
-              src="./images/img-content-6.png"
-              alt="img 6° new"
-            />
-            <img
-              src="./images/img-content-7.png"
-              alt="img 7° new"
-            />
-          </div>
-          <div class="main__no-one-view_content__title">
-            Bodhisattvas of Wisdom, Compassion, and Power
-          </div>
-          <span class="main__no-one-view_content__info">
-            March 27, 2021 - October 30, 2022
-          </span>
-        </div>
+              <img
+                src="./images/img-content-2.png"
+                alt="img 2° new"
+              />
+            </div>
+            <div class="no-one-view__content-title">
+              A New Look at Old Masters
+            </div>
 
-        <div class="main__no-one-view_content">
-          <div class="main__no-one-view__img">
-            <img
-              src="./images/img-content-3.png"
-              alt="img 3° new"
-            />
-            <img
-              src="./images/img-content-4.png"
-              alt="img 4° new"
-            />
+            <span class="no-one-view__content-info">
+              December 12, 2020 - Through
+            </span>
+
+            <span class="no-one-view__content-info">Spring 2023</span>
           </div>
-          <div class="main__no-one-view_content__title">
-            Inspiring Walt Disney:
-            <br />
-            The Animation of French Decorative Arts
+        </article>
+
+        <article>
+          <div class="no-one-view__content">
+            <div class="no-one-view__img no-one-view__img--images">
+              <img
+                src="./images/img-content-5.png"
+                alt="img 5° new"
+              />
+
+              <img
+                src="./images/img-content-6.png"
+                alt="img 6° new"
+              />
+
+              <img
+                src="./images/img-content-7.png"
+                alt="img 7° new"
+              />
+            </div>
+            <div class="no-one-view__content-title">
+              Bodhisattvas of Wisdom, Compassion, and Power
+            </div>
+
+            <span class="no-one-view__content-info">
+              March 27, 2021 - October 30, 2022
+            </span>
           </div>
-          <span class="main__no-one-view_content__info">
-            December 10, 2021 - March 6, 2022
-          </span>
-        </div>
+        </article>
+
+        <article>
+          <div class="no-one-view__content">
+            <div class="no-one-view__img">
+              <img
+                src="./images/img-content-3.png"
+                alt="img 3° new"
+              />
+
+              <img
+                src="./images/img-content-4.png"
+                alt="img 4° new"
+              />
+            </div>
+
+            <div class="no-one-view__content-title">
+              Inspiring Walt Disney:
+              <br />
+              The Animation of French Decorative Arts
+            </div>
+
+            <span class="no-one-view__content-info">
+              December 10, 2021 - March 6, 2022
+            </span>
+          </div>
+        </article>
       </section>
 
       <a
         href="#"
-        class="main__no-one-view_allexibition--link"
+        class="no-one-view-link"
       >
-        <div class="main__no-one-view_allexibition--content">
+        <article class="no-one-view__allexibition">
           View all exhibitions
-        </div>
+        </article>
       </a>
+      <!-- #endregion -->
 
+      <!-- #region EXPLORE-ONLINE -->
       <section
-        class="main__explore-online"
+        class="explore-online"
         id="explore-online"
       >
-        <div class="explore-online">
-          <div class="explore-online__main__title">More to Explore Online</div>
+        <div >
+          <div class="explore-online__title">More to Explore Online</div>
         </div>
-        <div class="explore-online__main__content">
-          <img
-            src="./images/img-content-8.png"
-            alt="img 8"
-          />
-          <div class="explore-online__main__content__title">
-            Collection Areas
-          </div>
-          <div class="explore-online__main__content__info">
-            These collection areas study, exhibit, and care for the objects in
-            The Met collection.
-          </div>
-        </div>
+        <article>
+          <div class="explore-online__content">
+            <img
+              src="./images/img-content-8.png"
+              alt="img 8"
+            />
 
-        <div class="explore-online__main__content">
-          <img
-            src="./images/img-content-9.png"
-            alt="img 8"
-          />
-          <div class="explore-online__main__content__title">Travel</div>
-          <div class="explore-online__main__content__info">
-            Travel with The Met connects the Museum's wide and diverse audience
-            to art, inspiration, and historical perspective.
-          </div>
-        </div>
+            <div class="explore-online__subtitle">
+              Collection Areas
+            </div>
 
-        <div class="explore-online__main__content">
-          <img
-            src="./images/img-content-10.png"
-            alt="img 8"
-          />
-          <div class="explore-online__main__content__title">
-            Virtual group tours
+            <div class="explore-online__info">
+              These collection areas study, exhibit, and care for the objects in
+              The Met collection.
+            </div>
           </div>
-          <div class="explore-online__main__content__info">
-            Request a guided tour, reserve admission and lead your own small
-            group, or request a live virtual tour led by a Museum guide.
+        </article>
+
+        <article>
+          <div class="explore-online__content">
+            <img
+              src="./images/img-content-9.png"
+              alt="img 8"
+            />
+
+            <div class="explore-online__subtitle">Travel</div>
+
+            <div class="explore-online__info">
+              Travel with The Met connects the Museum's wide and diverse audience
+              to art, inspiration, and historical perspective.
+            </div>
           </div>
-        </div>
+        </article>
+
+        <article>
+          <div class="explore-online__content">
+            <img
+              src="./images/img-content-10.png"
+              alt="img 8"
+            />
+
+            <div class="explore-online__subtitle">
+              Virtual group tours
+            </div>
+
+            <div class="explore-online__info">
+              Request a guided tour, reserve admission and lead your own small
+              group, or request a live virtual tour led by a Museum guide.
+            </div>
+          </div>
+        </article>
       </section>
+      <!-- #endregion -->
 
+      <!-- #region CONTACT-US -->
       <section
         class="contact-us"
         id="contact-us"
       >
         <h3 class="contact-us__title">Contact us</h3>
+
         <div class="contact-us__content">
-          <h3 class="contact-us__location-name">The Met Fifth Avenue</h3>
+          <h3 class="contact-us__location">The Met Fifth Avenue</h3>
+
           <p class="contact-us__label">Phone</p>
+
           <p class="contact-us__phone">
             <a
               href="tel:+1 212-535-7710"
@@ -397,15 +436,19 @@
               +1 212-535-7710
             </a>
           </p>
+
           <p class="contact-us__label">Address</p>
+
           <address class="contact-us__address">
             1000 Fifth Avenue New York, NY 10028
           </address>
         </div>
 
         <div class="contact-us__content">
-          <h3 class="contact-us__location-name">The Met Cloisters</h3>
+          <h3 class="contact-us__location">The Met Cloisters</h3>
+
           <p class="contact-us__label">Phone</p>
+
           <p class="contact-us__phone">
             <a
               href="tel:+1 212-923-3700"
@@ -414,7 +457,9 @@
               +1 212-923-3700
             </a>
           </p>
+
           <p class="contact-us__label">Address</p>
+
           <address class="contact-us__address">
             99 Margaret Corbin Drive Fort Tryon Park
             <br />
@@ -422,6 +467,9 @@
           </address>
         </div>
       </section>
+      <!-- #endregion -->
+
+      <!-- #region FORM -->
       <form
         action="URL-de-destino"
         method="POST"
@@ -430,14 +478,17 @@
         <div class="form__group">
           <input
             class="form__input"
+            aria-label="Name"
             type="text"
             name="name"
             placeholder="Name"
             required
           />
         </div>
+
         <div class="form__group">
           <input
+            aria-label="Email"
             class="form__input"
             type="email"
             name="email"
@@ -445,15 +496,17 @@
             required
           />
         </div>
+
         <div class="form__group">
           <textarea
-            class="form__input form__input--menssage"
-            type="text"
-            name="menssage"
-            placeholder="Menssage"
+            class="form__input form__input--message"
+            aria-label="Message"
+            name="message"
+            placeholder="Message"
             required
           ></textarea>
         </div>
+
         <button
           class="form__submit"
           type="submit"
@@ -461,6 +514,7 @@
           Send
         </button>
       </form>
+      <!-- #endregion -->
 
       <footer class="footer"></footer>
     </main>
